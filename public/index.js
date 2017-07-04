@@ -151,7 +151,10 @@ function loadingAnimation(){
         //animate elements of a div when that div is shown at user's screen
         let el = document.getElementById(elem);
         var elemTop = el.getBoundingClientRect().top;
-        if(elemTop < 100){
+        let limit = 100;
+        if(elem == "offer" || elem == "stats" || elem == "register") limit = 200;
+        if(elem == "stats") console.log(elemTop)
+        if(elemTop < limit){
             if(elem == "register"){
                 document.getElementById("register-text").style.animation = "fadeIn linear 1s 1 forwards";
                 document.getElementById("register-button").style.animation = "slideUp linear 1s 1 forwards";
