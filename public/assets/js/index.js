@@ -153,7 +153,6 @@ function loadingAnimation(){
         var elemTop = el.getBoundingClientRect().top;
         let limit = 100;
         if(elem == "offer" || elem == "stats" || elem == "register") limit = 200;
-        if(elem == "stats") console.log(elemTop)
         if(elemTop < limit){
             if(elem == "register"){
                 document.getElementById("register-text").style.animation = "fadeIn linear 1s 1 forwards";

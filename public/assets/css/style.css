@@ -11,7 +11,7 @@ html, body{
     font-family: 'christos';
     font-style: normal;
     font-weight: normal;
-    src: url('./fonts/Brandon_reg.otf') format('opentype');
+    src: url('../font/Brandon_reg.otf') format('opentype');
 }
 * {
     box-sizing: border-box;
@@ -99,7 +99,7 @@ html, body{
 /*sections*/
     #main{
         position: relative;
-        background: url(../css/img/backgrounds/back1.jpg) no-repeat center center fixed;
+        background: url(../img/backgrounds/main.jpg) no-repeat center center fixed;
         margin: 0 auto;
         padding: 0;
         height: 600px;
@@ -111,15 +111,15 @@ html, body{
         background: radial-gradient(rgb(184, 60, 45), rgb(231, 76, 60));
     }
     #offer{
-        background: url(../css/img/backgrounds/back2.jpg) no-repeat center center fixed;
+        background: url(../img/backgrounds/offer.jpg) no-repeat center center fixed;
         padding: 50px 0;
     }
     #stats{
-        background: url(../css/img/backgrounds/stats.jpg) no-repeat top center fixed;
+        background: url(../img/backgrounds/stats.jpg) no-repeat top center fixed;
         padding: 50px 0;
     }
     #register{
-        background: url(../css/img/backgrounds/back4.jpg) no-repeat center center fixed;
+        background: url(../img/backgrounds/register.jpg) no-repeat center center fixed;
         padding: 50px 0;
     }
     #plans{
@@ -188,7 +188,7 @@ html, body{
         display: inline-block;
         width: 180px;
         text-indent: -9999px;
-        background: url("../css/img/logo.png") 0 0 no-repeat;
+        background: url("../img/logo.png") 0 0 no-repeat;
         background-size: 100% auto;
         cursor: pointer;
     }
@@ -317,17 +317,17 @@ html, body{
             margin: 10px 0;
         }
         #why1{
-            background: url(./img/why1.png) no-repeat center;
+            background: url(../img/why1.png) no-repeat center;
             background-size: 100% auto;
             background-size: contain;
         }
         #why2{
-            background: url(./img/why2.png) no-repeat center;
+            background: url(../img/why2.png) no-repeat center;
             background-size: 100% auto;
             background-size: contain;
         }
         #why3{
-            background: url(./img/why3.png) no-repeat center;
+            background: url(../img/why3.png) no-repeat center;
             background-size: 100% auto;
             background-size: contain;
         }
@@ -484,12 +484,12 @@ html, body{
             width: 50%;
         }
         #success1, #success3, #success5, #success7{
-            background: url(./img/office/office1.jpg) no-repeat center;
+            background: url(../img/office/office1.jpg) no-repeat center;
             background-size: 100% auto;
             background-position: center center;
         }
         #success2, #success4, #success6, #success8{
-            background: url(./img/office/office2.jpg) no-repeat center;
+            background: url(../img/office/office2.jpg) no-repeat center;
             background-size: 100% auto;
             background-position: center center;
         }
@@ -564,7 +564,7 @@ html, body{
             opacity: 0;
         }
         #team1-icon, #team2-icon, #team3-icon{
-            background: url(./img/team1.jpg) no-repeat center;
+            background: url(../img/team1.jpg) no-repeat center;
             background-size: 100% auto;
             background-size: contain;
         }
